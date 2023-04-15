@@ -51,7 +51,7 @@ resource "aws_instance" "myFirstInstance" {
     Name = var.tag_name
   }
 }
-/*
+
 # Create Elastic IP address
 resource "aws_eip" "myFirstInstance" {
   vpc      = true
@@ -59,5 +59,5 @@ resource "aws_eip" "myFirstInstance" {
   tags = {
     Name = "my_elastic_ip"
   }
-}*/
+}
 
